@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Appointments</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Appointment Booking</h1>
+
+      <form id="booking">
+
+        <div class="form-group">
+          <label for="user">Name:</label>
+          <input id="user" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="inquiry">Why are you visiting us?</label>
+          <input id="inquiry" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="date">Which date?</label>
+          <input id="date" class="form-control" type="date">
+        </div>
+
+        <div class="form-group">
+          <label for="time">Start & End time</label>
+          <input id="time" class="form-control" type="time">
+        </div>
+
+        <button id="myBtn">Book Now!</button>
+
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <dl>
+              <dt>person's name</dt>
+              <dd><span class="user"></span></dd>
+              <dt>inquiry</dt>
+              <dd><span class="inquiry"></span> </dd>
+              dt
+              <dd><span class="date"></span></dd>
+
+              <dd><span class="time"></span></dd>
+            </dl>
+            <p>Booking Successful!</p>
+          </div>
+
+        </div>
+
+      </form>
+
+
+    </div>
+  </body>
+</html>
